@@ -11,6 +11,14 @@ app.controller('ControllerStudent', function($scope){
 
     $scope.saveStudent=function(){
         $scope.arrayStudents.push({name:$scope.newStudent.name, phone:$scope.newStudent.phone, course:$scope.newStudent.course});
+        $scope.formVisibility=false;
+    }
+
+    $scope.formVisibility=false;
+
+    $scope.showForm=function(){
+        $scope.formVisibility=true;
+
     }
 
 });
