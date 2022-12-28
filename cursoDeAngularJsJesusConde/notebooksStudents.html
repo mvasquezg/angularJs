@@ -22,7 +22,13 @@
         
     </section>
     <p></p>
-    <section>
+    
+    <section class="btnCenter" ng-hide="formVisibility">
+        <button ng-click="showForm()">Añadir Contactos</button>
+    </section>
+
+    <p></p>
+    <section ng-show="formVisibility">
         <h2>Añadir un Contacto</h2>
         Nombre: <input type="text" ng-model="newStudent.name"/>
         <p></p>
