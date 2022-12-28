@@ -1,0 +1,39 @@
+body{
+    background-color: #ffe4c4;
+    /*background-color:darkkhaki;*/
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+section{
+    width: 650px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px #555;
+    background: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.contact-item{
+    border-bottom: thin solid #ccc;
+    padding: 10px;
+}
+
+.name{
+    font-size: 18px;
+}
+
+.course{
+    font-style: italic;
+    font-size: 13px;
+}
+
+button{
+    text-align: center;
+}
