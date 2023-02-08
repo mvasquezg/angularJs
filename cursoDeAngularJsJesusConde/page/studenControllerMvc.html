@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="studentMvc">
+    <head>
+        <meta charset="utf-8"/>        
+
+
+         
+        <title>
+            Alumnos MVC
+        </title>
+    </head>
+
+    <body ng-controller="studentMvcController">
+        <h1>
+            Alumnos MVC
+        </h1>
+
+        <section ng-repeat="student in arrayStudents">
+            <div>
+                {{student.name}} - student{{student.phone}}
+            </div>
+            <span>{{student.course}}</span>
+        </section>
+       
+        <script src="../angular-1.5.7/angular.js"></script>
+        <script src="../js/studentController.js"></script>
+       
+
+    </body>
+</html>
